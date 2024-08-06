@@ -203,10 +203,8 @@ input,select::placeholder {
     <div class="container">
         <h1 class="form-header">Bliend's NextGen Professional Profile</h1>
 
-         <form name="Details" method="POST" data-netlify="true">
-                <input type="hidden" name="form-name" value="Details">
-                <input type="hidden" name="thank-you" value="thank-you.html">
-
+        
+        <form action="http://localhost/application%20form/submit_profile.php" method="post" enctype="multipart/form-data">
 
         <div class="form-section">
             <div class="form-group">
@@ -373,13 +371,10 @@ input,select::placeholder {
                 <label for="open-positions">Open Positions</label>
                 <select id="open-positions" name="open-positions"required="">
                     <option value="">Select</option>
-                    <option value="Administration/Human Resources">Administration/Human Resources </option>
-                    <option value="Cheif Accountan">Cheif Accountant </option>
-                    <option value="Marketing Strategist/Marketing Excecutive">Marketing Strategist/Marketing Excecutive</option>
-                    <option value="Python/JS Developers">Python/JS Developers </option>
-                    <option value="Graphic Designer/Editor">Graphic Designer/Editor </option>
-                    <option value="Digital Marketing ">Digital Marketing </option>
-
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="manager">###</option>
+                    <option value="analyst">##</option>
                 </select>
             </div>
         </div>
@@ -445,15 +440,14 @@ input,select::placeholder {
                         </div>
                     </div>
                     <div class="text-center">
-                        <a href="thankyou.html">SUBMIT</a>
-                 </div>
-                  
-
+                        <input type="submit"
+                        name="save" 
+                        class="btn btn-primary" value="Submit">
+                    </div>
         </form>
         <script>
-    
-    </script>
-        
+			
+		  </script>
           
         
     </div>
