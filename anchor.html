@@ -1,0 +1,289 @@
+<html>
+<head>
+<title>
+</title>
+<style>
+.text-center a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff; /* Bootstrap primary blue color */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.text-center a:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+</style>
+</head>
+
+
+
+
+<body>
+    <div class="background-logo"></div>
+    <div class="container">
+        <h1 class="form-header">Bliend's NextGen Professional Profile</h1>
+
+         <form name="Details" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="Details">
+                <input type="hidden" name="thank-you" value="thank-you.html">
+
+
+        <div class="form-section">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date"required="">
+            </div>
+        </div>
+        <div class="form-section">
+            <div class="form-group">
+                <label for="contact">Contact No</label>
+                <input type="number" id="contact" name="contact">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"required="">
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+        </div>
+        <div class="form-section">
+            
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender"required="">
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="marital-status">Marital Status</label>
+                <select id="marital-status" name="marital-status">
+                    <option value="">Select</option>
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                    <option value="divorced">Divorced</option>
+                    <option value="widowed">Widowed</option>
+                </select>
+            </div>
+            
+        </div>
+        <div class="form-section">
+            <div class="form-group">
+                <label for="district">District</label>
+                <select id="district" name="district">
+                    <option value="">Select District</option>
+                    <option value="ariyalur">Ariyalur</option>
+                    <option value="chengalpattu">Chengalpattu</option>
+                    <option value="chennai">Chennai</option>
+                    <option value="coimbatore">Coimbatore</option>
+                    <option value="cuddalore">Cuddalore</option>
+                    <option value="dharmapuri">Dharmapuri</option>
+                    <option value="dindigul">Dindigul</option>
+                    <option value="erode">Erode</option>
+                    <option value="kallakurichi">Kallakurichi</option>
+                    <option value="kancheepuram">Kancheepuram</option>
+                    <option value="karur">Karur</option>
+                    <option value="krishnagiri">Krishnagiri</option>
+                    <option value="madurai">Madurai</option>
+                    <option value="nagapattinam">Nagapattinam</option>
+                    <option value="namakkal">Namakkal</option>
+                    <option value="nilgiris">Nilgiris</option>
+                    <option value="perambalur">Perambalur</option>
+                    <option value="pudukottai">Pudukottai</option>
+                    <option value="ramanathapuram">Ramanathapuram</option>
+                    <option value="ranipet">Ranipet</option>
+                    <option value="salem">Salem</option>
+                    <option value="sivaganga">Sivaganga</option>
+                    <option value="tenkasi">Tenkasi</option>
+                    <option value="thanjavur">Thanjavur</option>
+                    <option value="theni">Theni</option>
+                    <option value="thiruvallur">Thiruvallur</option>
+                    <option value="thiruvannamalai">Thiruvannamalai</option>
+                    <option value="thiruvarur">Thiruvarur</option>
+                    <option value="thoothukudi">Thoothukudi</option>
+                    <option value="tiruchirappalli">Tiruchirappalli</option>
+                    <option value="tirunelveli">Tirunelveli</option>
+                    <option value="tirupattur">Tirupattur</option>
+                    <option value="tiruppur">Tiruppur</option>
+                    <option value="tiruvallur">Tiruvallur</option>
+                    <option value="vellore">Vellore</option>
+                    <option value="viluppuram">Viluppuram</option>
+                    <option value="virudhunagar">Virudhunagar</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="state2">State</label>
+                <select id="state" name="state">
+                    <option value="">Select State</option>
+                    <option value="andhra-pradesh">Andhra Pradesh</option>
+                    <option value="arunachal-pradesh">Arunachal Pradesh</option>
+                    <option value="assam">Assam</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="chhattisgarh">Chhattisgarh</option>
+                    <option value="goa">Goa</option>
+                    <option value="gujarat">Gujarat</option>
+                    <option value="haryana">Haryana</option>
+                    <option value="himachal-pradesh">Himachal Pradesh</option>
+                    <option value="jharkhand">Jharkhand</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="kerala">Kerala</option>
+                    <option value="madhya-pradesh">Madhya Pradesh</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="manipur">Manipur</option>
+                    <option value="meghalaya">Meghalaya</option>
+                    <option value="mizoram">Mizoram</option>
+                    <option value="nagaland">Nagaland</option>
+                    <option value="odisha">Odisha</option>
+                    <option value="punjab">Punjab</option>
+                    <option value="rajasthan">Rajasthan</option>
+                    <option value="sikkim">Sikkim</option>
+                    <option value="tamil-nadu">Tamil Nadu</option>
+                    <option value="telangana">Telangana</option>
+                    <option value="tripura">Tripura</option>
+                    <option value="uttar-pradesh">Uttar Pradesh</option>
+                    <option value="uttarakhand">Uttarakhand</option>
+                    <option value="west-bengal">West Bengal</option>
+                </select>
+                
+            </div>
+            <div class="form-group">
+                <label for="nationality">Nationality</label>
+                <select id="nationality" name="nationality">
+                    <option value="">Select</option>
+                    <option value="indian">Indian</option>
+                    <option value="other">Others</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="pincode">Pincode</label>
+                <input type="text" id="pincode" name="pincode">
+            </div>
+        </div>
+        <div class="form-section">
+            <div class="form-group">
+                <label for="current-org">Current Organisation</label>
+                <input type="text" id="current-org" name="current-org"required="">
+            </div>
+            <div class="form-group">
+                <label for="current-desig">Current Designation</label>
+                <input type="text" id="current-desig" name="current-desig"required="">
+            </div>
+        </div>
+        <div class="form-section">
+            <div class="form-group">
+                <label for="employee-type">Employee Type</label>
+                <select id="employee-type" name="employee-type">
+                    <option value="">Select</option>
+                    <option value="full-time">Full-Time</option>
+                    <option value="part-time">Part-Time</option>
+                    <option value="contract">Temporary</option>
+                    <option value="intern">Intern</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="open-positions">Open Positions</label>
+                <select id="open-positions" name="open-positions"required="">
+                    <option value="">Select</option>
+                    <option value="Administration/Human Resources">Administration/Human Resources </option>
+                    <option value="Cheif Accountan">Cheif Accountant </option>
+                    <option value="Marketing Strategist/Marketing Excecutive">Marketing Strategist/Marketing Excecutive</option>
+                    <option value="Python/JS Developers">Python/JS Developers </option>
+                    <option value="Graphic Designer/Editor">Graphic Designer/Editor </option>
+                    <option value="Digital Marketing ">Digital Marketing </option>
+
+                </select>
+            </div>
+        </div>
+        <div class="form-section">
+            <div class="form-group">
+                <label for="experience">Experience</label>
+                <input type="text" id="experience" name="experience"required="">
+            </div>
+            <div class="form-group">
+                <label for="education">Education</label>
+                <input type="text" id="education" name="education" placeholder="Please mention UG degree alone"required="">
+            </div>
+            <div class="form-group">
+                <label for="ug-percentage">UG Percentage</label>
+                <input type="text" id="ug-percentage" name="ug-percentage"required="">
+            </div>
+            <div class="form-section">
+                
+            </div>
+                <div class="form-group">
+                    <label for="expected-salary">Expected Salary</label>
+                    <input type="text" id="expected-salary" name="expected-salary">
+                </div>
+            </div>
+           
+        
+                <div class="form-section">
+                    <div class="form-group">
+                        <label for="smoke">Did you smoke?</label>
+                        <select id="smoke" name="smoke">
+                            <option value="">Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="alcohol">Do you consume Alcohol?</label>
+                        <select id="alcohol" name="alcohol">
+                            <option value="">Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="marketing-interest">Are you interested in marketing?</label>
+                        <select id="marketing-interest" name="marketing-interest">
+                            <option value="">Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+                    <div class="form-sectionss">
+                        <div class="form-grouped">
+                            <label for="why-company">Why did you choose our company?</label>
+                            <textarea id="why-company" name="why-company" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-section2">
+                        <div class="form-group2">
+                            <label for="resume">Resume</label>
+                            <input type="file" id="resume" name="resume"required="">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="C:\Users\AishuAbi\Desktop\Bliend Form\thankyou.html">SUBMIT</a>
+                 </div>
+                  
+
+        </form>
+        <script>
+    
+    </script>
+        
+          
+        
+    </div>
+   
+</body>
+</html>
